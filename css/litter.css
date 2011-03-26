@@ -1,0 +1,211 @@
+/*
+ * litter.css
+ * 
+ * Litter is coded by Scott VonSchilling. He needs a job. If you like
+ * what you see, please email scottvonschilling [at] gmail [dot] com.
+ *
+ * /
+
+@CHARSET "UTF-8";
+
+/* The Basics */ 
+body {
+	background: #7DD6E5 url("../images/logo.png") no-repeat scroll;
+	position:absolute;
+	margin-left: 100px;
+	width: 800px;
+}
+
+#footer {
+	padding:5px 0px 10px 0px;
+	font-size:80%;
+	color: #666;
+	text-align:center;
+}
+
+.hidden_info{
+	display:none;
+}
+
+/* Welcome Page */
+
+#welcome, #settings {
+	width: 500px;
+	padding:10px 50px 25px 50px;
+	text-align:justify;
+	background-color: #FBFFE7;
+	margin-top:170px;
+}
+
+#settings input {
+	width: 400px;
+	right:250px;
+	position:absolute;
+}
+
+#setting form{
+	width:500px;
+}
+
+.settingLbl {
+	width: 400px;
+}
+
+#welcome h2 {
+	text-align: center;
+}
+
+#stats {
+	text-align: center;
+}
+
+/* Home Page */
+#home {
+	margin-top:170px;
+	width:500px;
+	padding: 5px 20px 20px 20px;
+	background-color: #FBFFE7;
+}
+
+#home h2 {
+	margin: 1px;
+}
+
+#id_tag {
+	float:right;
+	width: 300px;	
+	margin-top:20px;
+}
+
+#id_tag img{
+	float:right;	
+	width: 80px;
+	padding: 5px;
+}
+
+#new_litt{
+	float:right;
+}
+
+#the_scoop{
+	padding: 10px;	
+}
+
+#txt_box {
+	width: 450px;
+	margin: 10px 0px 10px 20px;
+	padding: 5px;
+	height: 50px;
+	vertical-align:top;
+	font-size:85%;
+}
+
+#tiny_text{
+   font-size:80%;	
+   margin-left: 20px;
+}
+
+#side_bar {
+	width: 250px;
+	right: 0;
+	top: 170px;
+	position:absolute;
+}
+
+#user_pane {
+	height: 300px;
+	padding:5px;
+	background-color: #FBFFE7;
+	
+}
+
+#user_pane img{
+	width:70px;
+	margin:5px;
+}
+
+#user_bio {
+	font-size:70%;
+	right:0px;
+	position:absolute;
+	padding: 5px 5px 5px 5px;
+	width: 150px;
+	vertical-align: middle;
+}
+
+#user_tag{
+	height:80px;
+}
+
+.deet_title {
+	margin: 5px 0 0 5px;
+	font-weight:bold;
+}
+
+.deet_value {
+	margin-left: 10px;
+	font-size:90%;
+}
+
+#user_list{
+	height: 310px;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding:5px;
+	background-color: #FBFFE7;
+}
+
+#user_list img{
+	margin:5px;	
+	width: 48px;
+	height: 48px;
+	cursor:pointer;
+}
+
+
+.litt {
+	border:1px solid black;
+	background-color: #FFFFFF;
+	padding:5px;
+	margin:5px;
+	height: 90px;
+}
+
+.litt img {
+	float: left;
+	margin: 5px;
+	cursor:pointer;
+}
+
+.litt_username {
+	font-size:90%;
+	cursor:pointer;
+}
+
+.litt_time {
+	float:right;
+}
+
+.litt_text {
+	height:50px;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.litt_reply {
+	margin-left: 450px;
+	font-size:90%;
+}
+
+.litt_reply a{
+	text-decoration:none;
+	color:#000;
+}
+
+#you_got_litts {
+	text-align:center;
+	text-font:90%;
+	font-weight:bold;
+	cursor: pointer;
+	visibility:hidden;
+}
