@@ -69,7 +69,7 @@ class Litt {
 		$text = $this->fancyText();
 		
 		$s = "	<div class='litt' $title >
-					<img src='$picture' $onClick />
+					<img src='$picture' alt='profile picture' $onClick />
 					<div class='litt_top'>
 						<div class='litt_username' $onClick >
 							$name:
@@ -91,6 +91,7 @@ class Litt {
 		$s = preg_replace("/(http:\/\/[^\s]+)/", "<a href=\"$1\">$1</a>", $this->text);
 		$s = preg_replace("/(@[^\s]+)/", "<span style='color:darkred;'>$1</span>", $s);
 		$s = preg_replace("/(#[^\s]+)/", "<span style='color:green'>$1</span>", $s);
+		$s = str_replace("&","&amp;", $s);
 		return $s;
 	}
 	

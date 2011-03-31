@@ -63,10 +63,9 @@
 	    <a href="javascript:void(0)" onclick = "getOldLitts()">Load Next 10</a>
    	</div>
    	<div id="on_deck" class="hidden_info"></div>
-   	
-<?php require 'pages/footer.php'; ?>
 
 <script type="text/javascript">
 	setInterval (getNewLitts, 10000);
-
 </script>
+   	
+<?php require 'pages/footer.php'; ?>
